@@ -103,10 +103,10 @@ data-warehouse-project/
 ---
 
 ## ☕ Stay Connected
-abu2002assi@gmail.com
-https://abdelrahmanportfolio-eight.vercel.app/
-https://www.linkedin.com/in/abd-abuassi/
----
+
+- **Email:** abu2002assi@gmail.com  
+- **Portfolio:** [https://abdelrahmanportfolio-eight.vercel.app/](https://abdelrahmanportfolio-eight.vercel.app/)  
+- **LinkedIn:** [https://www.linkedin.com/in/abd-abuassi/](https://www.linkedin.com/in/abd-abuassi/)
 
 ## 🛡️ License
 
