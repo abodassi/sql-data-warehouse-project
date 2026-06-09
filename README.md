@@ -90,7 +90,6 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Customer Behavior**
 - **Product Performance**
 - **Sales Trends**
-- **Risk Insights**: Advanced churn risk analysis using RFM (Recency, Frequency, Monetary) scoring to identify at-risk customers and track churn trends over time.
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
