@@ -7,7 +7,8 @@ import re
 # --------------------------
 # Gemini API key
 # --------------------------
-API_KEY = "AIzaSyBtzzEnQX0vU6yZ4YcawpEW4v9o8lSEpGs"
+import os
+API_KEY = os.getenv("GEMINI_API_KEY", "YOUR_GEMINI_API_KEY_HERE")
 client = genai.Client(api_key=API_KEY)
 
 st.title("Data Analysis System with Gemini (Plotly)")

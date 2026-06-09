@@ -1,13 +1,13 @@
 # Data Warehouse and Analytics Project
 
-Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
+## Welcome to the **Data Warehouse and Analytics Project** repository! 🚀
 
 > [!IMPORTANT]
 > **📚 Full Project Documentation:**  
 > You can find the complete and detailed documentation for this graduate project here:  
 > 👉 **[Full Documentation (PDF)](docs/docmumntation%20for%20last%20graduate%20project.pdf)**
-> 
-> *Note: The content below is a brief overview of the project's features and architecture.*
+>
+> _Note: The content below is a brief overview of the project's features and architecture._
 
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
 
@@ -33,7 +33,7 @@ This project involves:
 3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
 4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 5. **Exploratory Data Analysis (EDA)**: Comprehensive SQL scripts and analytics for database exploration, metrics, and segmentation.
-6. **Machine Learning**: Implementing association rules for cross-selling recommendations using Python and scikit-learn.
+6. **Machine Learning**: Implementing Market Basket Analysis (Association Rules) for cross-selling recommendations using Python and mlxtend.
 7. **AI Generating Charts**: Building a Streamlit application that dynamically generates interactive charts from user queries using the Gemini API.
 
 🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
@@ -44,7 +44,7 @@ This project involves:
 - ETL Pipeline Developer
 - Data Modeling
 - Data Analytics
-- Machine Learning (Python, scikit-learn)
+- Machine Learning (Python, mlxtend, Apriori)
 - AI Integration (Gemini API, Streamlit)
 
 ---
@@ -97,6 +97,15 @@ For more details, refer to [docs/requirements.md](docs/requirements.md).
 
 #### Power BI Dashboard
 
+The project includes a comprehensive, multi-page Power BI dashboard designed for deep, interactive data exploration. It features dynamic filters and slicers across all pages, enabling users to effortlessly drill down into specific products, categories, customer segments, and time periods.
+
+The dashboard consists of four main pages:
+
+1. **Sales & Profits**: High-level KPIs (Total Orders, Sales, Profit Margin) with trends over time, and breakdowns by category, country, and top customers.
+2. **Products Info**: Detailed product performance metrics including average recency, delivery times, lifespan, and maintenance costs.
+3. **Customer Info**: Customer demographics, segmentation (VIP, Regular, New), repeat purchase behavior, and average monthly spend analysis.
+4. **Risk Insights**: Advanced churn risk analysis using RFM (Recency, Frequency, Monetary) scoring to identify at-risk customers and track churn trends over time.
+
 Watch the Power BI Dashboard in action:
 
 <video src="assets/power%20bi.mp4" controls="controls" style="max-width: 100%;">
@@ -107,14 +116,17 @@ Watch the Power BI Dashboard in action:
 
 ### Exploratory Data Analysis (EDA)
 
+![Exploratory Data Analysis](EDA/docs/EDA.png)
+
 #### Objective
 
-Deepen the understanding of the data through advanced SQL analytics.
+Deepen the understanding of the data through a comprehensive collection of advanced SQL scripts for data exploration, analytics, and reporting.
 
 #### Specifications
 
-- **Database Exploration**: Analyzing dimensions, dates, and key metrics.
-- **Advanced Analytics**: Trend analysis, cumulative metrics, performance over time, and data segmentation.
+- **Database Exploration**: Analyzing dimensions, dates, measures, and key metrics.
+- **Advanced Analytics**: Analyzing time-based trends, cumulative metrics, performance over time, and data segmentation.
+- **Best Practices**: Demonstrates industry best practices for SQL queries designed to help data analysts and BI professionals quickly explore, segment, and analyze data within a relational database.
 
 ---
 
@@ -126,8 +138,8 @@ Discover relationships between products to enable cross-selling strategies.
 
 #### Specifications
 
-- **Method**: Association Rule Learning (Unsupervised Learning).
-- **Tools**: Python, scikit-learn.
+- **Method**: Market Basket Analysis (Apriori Algorithm).
+- **Tools**: Python, mlxtend, pandas.
 - **Application**: Analyzing patterns in order and product data to recommend frequently co-purchased items.
 
 ---
