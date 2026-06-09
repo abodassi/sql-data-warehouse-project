@@ -105,11 +105,9 @@ The dashboard consists of four main pages:
 3. **Customer Info**: Customer demographics, segmentation (VIP, Regular, New), repeat purchase behavior, and average monthly spend analysis.
 4. **Risk Insights**: Advanced churn risk analysis using RFM (Recency, Frequency, Monetary) scoring to identify at-risk customers and track churn trends over time.
 
-Watch the Power BI Dashboard in action:
+![Power BI Dashboard Demo](assets/powerbi_demo.gif)
 
-<video src="assets/power%20bi.mp4" controls="controls" style="max-width: 100%;">
-  Your browser does not support the video tag.
-</video>
+> 🎥 [Watch the full demo on YouTube](https://www.youtube.com/watch?v=wKan3wAglpk)
 
 ---
 
