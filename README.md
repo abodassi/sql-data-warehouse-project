@@ -91,6 +91,7 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Product Performance**
 - **Sales Trends**
 - **Risk Insights**
+
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
 #### Power BI Dashboard
