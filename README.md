@@ -107,8 +107,6 @@ The dashboard consists of four main pages:
 
 ![Power BI Dashboard Demo](assets/powerbi_demo.gif)
 
-> 🎥 [Watch the full demo on YouTube](https://www.youtube.com/watch?v=wKan3wAglpk)
-
 ---
 
 ### Exploratory Data Analysis (EDA)
